@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Automobile Sales prediction
+## BUSINESS CONTEXT:
+Business problem definition - One of major automobile company would like to design new product which gives high sales. Inorder to define the product, they want to understand and identify important drivers for the sales(what are the factors driving sales) and Predict the new car sales for given car model with defined factors.
 
-You can use the [editor on GitHub](https://github.com/shyam1326/Automobile_Sales-LinearRegression/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Expectations from the Trainees:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1.	Understand the data & perform the data preparation before the model building
+2.	Perform all the modeling steps including pre & post modeling steps like data preparation and implementation of the model
+3.	Understand output and explain the model fit
+4.	Determine what is the "best" linear model?
+5.	Apply transformations to the given variables and find out the possible best model after transformations.
+6.	Generate the final equation
+7.	Validate the model and present the results in Excel or PPT.
 
-### Markdown
+#### DATA AVAILABLE:
+	Car_sales.csv
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+#### Description of the Variables:
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shyam1326/Automobile_Sales-LinearRegression/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1.	Manufacturer - Car Manufacturer Name
+2.	Model - Car Model Name
+3.	Sales_in_thousands - Car Sales in Thousands
+4.	    year_resale_value - Resale value after 4 years
+5.	Vehicle_type - Type of car
+6.	Price_in_thousands - Price of the car
+7.	Engine_size - Car Engine Size
+8.	Horsepower - Car Horse power
+9.	Wheelbase - Car wheel base
+10.	Width - Car Width
+11.	Length - Car Length
+12.	Curb_weight - Car Curb Weight
+13.	Fuel_capacity - Fuel Capacity in liters
+14.	Fuel_efficiency - Fuel efficiency (kms/per liter)
+15.	Latest_Launch - Car Model Launch Date
+16.	Power_perf_factor - Power performance factor
